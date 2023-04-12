@@ -12,14 +12,24 @@
     padding: 24px 0px;
 }
 .cabecalho-imagem{
-    width:"140"; height: "23";
+    width:30%;
 }
 .cabecalho-lista-item{
     display: inline-block;
-    margin: 0px 16px;
+    margin: 0px 20px;
+    font-size: 26px;
 }
-.cabecalho-lista-item-imagem{
-    width:8%;
-    align-items: inline-block;
-    margin: 0px 16px;
+.livraria-imagem{
+    width:30%; 
+}
+.livraria{
+    background-image: linear-gradient(#FFFFFF, #F7E5D5, #FFD2A9);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px, 0px;
+}
+.livraria-div-conteudo{
+    width: 38%;
 }
