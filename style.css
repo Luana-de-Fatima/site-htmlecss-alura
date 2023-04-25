@@ -22,7 +22,7 @@
     width:40%; 
 }
 .livraria{
-    background-image: linear-gradient(#FFFFFF, #F7E5D5, #FFD2A9);
+    background-image: linear-gradient(#FFFFFF, #F7E5D5);
     color: black;
     display: flex;
     justify-content: center;
@@ -38,10 +38,12 @@
     width: 28%;
 }
 .livros{
-    width: 150px;
+    width: 120px;
+    padding: 20px 0px 5px 0px;
 }
 .icone-compra{
     width: 24px;
+    padding: 10px 0px;
 }
 .livros-div{
     text-align: center;
@@ -54,4 +56,16 @@
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
 
+}
+.best-sellers{
+    background-image: linear-gradient(#F7E5D5, #FFD2A9);
+    padding: 10px 0px 90px 0px;
+}
+.rodape{
+    background-color: black;
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+}
+.rodape-imagem{
+    width:10%;
 }
